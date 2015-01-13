@@ -1,0 +1,12 @@
+{
+  "name": "lagunatooth",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node boom.js",
+    "test": "mocha -R spec -u tdd test/tests/*.js"
+  },
+  "main": "server",
+  "dependencies": {
+    "bluetooth-obd": "~0.2.0"
+  }
+}
